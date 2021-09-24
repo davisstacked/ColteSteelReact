@@ -10,7 +10,7 @@ function incrementCounter(prevState) {
 }
 
 // Somewhere in the component
-// this.setState(incrementCounter);
+this.setState(incrementCounter);
 
 // Because testing your state changes is as simple as testing a plain function:
 
